@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto Alura C1</title>
+    <link rel="stylesheet" href="./css/styleshet.css">
+</head>
+<body>
+  <header>
+    <img src="./img/Logo.svg" alt="logo" id="logo">
+  </header>
+  
+  
+    <section class="form-box">
+      <form action="">
+        <div class="label-info">
+          <img src="./img/Group.svg" alt="importante" id="imgInfo">  
+          <label class="info" for="input-texto">Solo escribir letras minúsculas y sin acentos</label>
+        </div>
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Escriba el texto aquí, a continuacion de click en el botón.">
+        <div id="botones">
+          <input class="btn" type="button" value="Encriptar" id="btn-encriptar">
+          <input class="btn2" type="button" value="Desencriptar" id="btn-desencriptar">
+        </div>
+      </form>
+    </section>
+  
+
+    <section class="msg-box" id="cajaR">
+      <h2 id=""></h2>
+          
+      <div id="divImagen">
+        <picture>
+          <source srcset="./img/Muñeco.svg" media="screen and (max-width : 400px)">
+          <img src="./img/Muñeco.svg" id="imagen" class="img">
+        </picture>
+        <p class="texto1"><strong>Ningún mensaje fue encontrado!!!</strong></p>
+        <p class="texto2">Escribe el texto que deseas encriptar o desencriptar</p>
+      </div>
+      <div id="botonCopiar">
+        <input class="text-input-salida" type="text" id="msg">
+        <input class="btn3" type="button" value="Copiar" id="btn-copy">
+      </div>
+      
+    </section>
+   
+  <footer>
+    <p><marquee>Este es el primer Challenge del programa ONE: Oracle Next Education es un encriptador de textos, no escribas mayusculas, letras con acentos, números o caracteres especiales para que funcione correctamente espero sea de tu agrado, ¡gracias!
+    </marquee></p>  
+  </footer>
+  <script src="./js/script.js"></script>
+
+  <!-- Para saber si el decodificador funciona correctamente copia el siguiente texto: -->
+
+  <!-- fenterlimescimesdaidenters poberr enternfrenterntair enterstenter dentersaifimesober y haibenterrlober cobernclufatimesdober cobern enterximestober! -->
+
+  <!-- El resultado debe ser: -->
+
+  <!-- felicidades por enfrentar este desafio y haberlo concluido con exito! -->
+</body>
+</html>
